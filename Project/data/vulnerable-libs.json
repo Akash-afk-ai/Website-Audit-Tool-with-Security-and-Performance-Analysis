@@ -1,0 +1,54 @@
+{
+    "jquery": {
+        "vulnerabilities": [
+            {
+                "below": "3.5.0",
+                "severity": "medium",
+                "identifiers": {
+                    "summary": "Cross-site Scripting (XSS)"
+                },
+                "info": [
+                    "https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/"
+                ]
+            },
+            {
+                "below": "3.0.0",
+                "severity": "medium",
+                "identifiers": {
+                    "summary": "Cross-site Scripting (XSS) in selector"
+                },
+                "info": [
+                    "https://github.com/jquery/jquery/issues/2432"
+                ]
+            }
+        ]
+    },
+    "angular.js": {
+        "vulnerabilities": [
+            {
+                "below": "1.8.0",
+                "severity": 'high',
+                "identifiers": {
+                    "summary": "Cross-site Scripting (XSS) in multiple components"
+                },
+                "info": [
+                    "https://docs.angularjs.org/misc/version-support-status"
+                ]
+            }
+        ]
+    },
+    "bootstrap": {
+        "vulnerabilities": [
+            {
+                "below": "4.5.2",
+                "severity": "medium",
+                "identifiers": {
+                    "summary": "Cross-site Scripting (XSS) in Tooltip and Popover"
+                },
+                "info": [
+                    "https://blog.getbootstrap.com/2020/06/16/bootstrap-4-5-2-and-3-4-2/"
+                ]
+            }
+        ]
+    }
+}
